@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Here</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+
+    <style>
+        .backEnd {
+            background-color: #1B2940;
+            /* box-sizing:border-box; */
+        }
+
+        .switch {
+            background-color: #DB2D90;
+            color: snow;
+            ;
+        }
+
+        .heading {
+            color: #DB2D90;
+            font-size: 50px;
+
+        }
+
+        .label {
+            color: lightgrey;
+            font-size: 20px;
+            mix-blend-mode: difference;
+
+        }
+
+        .input {
+            width: 230px;
+            background-color: rgb(217, 228, 225);
+            padding: 9px;
+            font-size: 100%;
+            border-radius: 5px;
+            border-color: #ffffff;
+        }
+
+        .link {
+            text-decoration: none;
+        }
+
+        .signin {
+            font-size: 27px;
+            border: none;
+            padding: 6px 88px;
+            border-radius: 5px;
+        }
+
+        .halfalign {
+            zoom: 120%;
+            height: 490px;
+            width: 51%;
+            text-align: center;
+
+        }
+
+        .logo {
+            margin-left: 34px;
+            margin-top: 47px;
+            height: 226px;
+        }
+
+        .multicolortext {
+            background-image: linear-gradient(to top left, #e936e9, #1555a3e0, #217a7e);
+            /* #e94f36, #1555a3e0, #1b9d4f); */
+            /* #e936e9, #1555a3e0, #217a7e);  */
+            /* #7db46cff, #e7ebe0ff, #abd6dfff); */
+
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body class="backEnd">
+    <!-- HEAD NAME -->
+    <header>
+        <p style="background-color:darkgrey; height: 80px; text-align: right;">
+            <span
+                style="font-family: 'Merienda One', cursive; font-size: 60px;  margin-right: 26px; line-height: 122%; "
+                class="multicolortext">Jatin Communication</span>
+
+        </p>
+
+    </header>
+
+
+    <!-- Left Part -->
+    <div class="halfalign" style="float: left; width: 48%;">
+
+        <!-- Logo -->
+        <img src="https://image.flaticon.com/icons/svg/2898/2898444.svg"
+            alt="Entertainment" class="logo">
+        <div style="margin-top: 3px;">
+
+            <!-- New User -->
+            <div>
+                <label style="font-size: 232%; color: darkgray;">New User!</label>
+            </div>
+
+            <!-- Create New Account -->
+            <div style="margin-top: 20px;">
+                <a href="" id="newUser" class="link switch signin" style="padding: 9px 19px;  ">Create New Account</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Right Part -->
+    <div class="halfalign" style="border-left: 3px solid black;  float: right;">
+        <p class="heading">Welcome</p>
+
+        <!-- Email Address Box -->
+        <div>
+            <input class="input" type="email" name="" placeholder="Email Address">
+        </div>
+
+        <br>
+
+        <!-- Password Box -->
+        <div>
+            <input class="input" type="password" name="" placeholder="Password">
+        </div>
+
+        <br>
+
+        <!-- Remember Me -->
+        <!-- Forget Password -->
+        <div>
+            <input type="checkbox" name="" id="remember">
+            <label for="remember" class="label" style="font-size: 17px;"> Remember me</label>
+
+            <a href="" class="label link" style="font-size: 17px; margin-left: 19px;">Forget Password</a>
+        </div>
+
+        <br>
+
+        <!-- Sign in -->
+        <div>
+            <a href="" class="link switch signin">Sign in</a>
+        </div>
+
+
+    </div>
+
+
+
+    <br>
+    </div>
+
+</body>
+
+</html>
